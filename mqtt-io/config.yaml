@@ -1,9 +1,9 @@
-name: MQTT IO
-version: 0.4.0
+name: MQTT IO FORL
+version: 0.4.1-fork
 slug: mqtt-io
 description: Expose GPIO modules and digital sensors via MQTT for remote control and
   monitoring.
-url: https://github.com/hassio-addons/addon-mqtt-io
+url: https://github.com/grigger/addon-mqtt-io
 codenotary: codenotary@frenck.dev
 arch:
 - aarch64
@@ -19,7 +19,7 @@ map:
 - share:rw
 - ssl
 options:
-  configuration_file: /config/mqtt-io/config.yml
+  configuration_file: /config/mqtt-io/config.yaml
 schema:
   configuration_file: str
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
