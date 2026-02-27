@@ -1,6 +1,6 @@
 name: MQTT IO FORL
-version: 0.4.1-fork
-slug: mqtt-io
+version: 0.4.0
+slug: mqtt-io-fork
 description: Expose GPIO modules and digital sensors via MQTT for remote control and
   monitoring.
 url: https://github.com/grigger/addon-mqtt-io
